@@ -20,8 +20,8 @@ Step 2: Use Ensemble Classifiers to Predict Credit Risk. Click [here](https://gi
 
 Step 3: Review findings
 * Balanced Accuracy Score: Performance metric for imbalanced data
-* Precision Score: Quantifies the number of correct positive predictions out of all positive predictions made by the model. This shows the ability of the classifier not to label a positive sample that is actually negative.
-* Recall Score: Quantifies the number of correct positive predictions made out of all positive predictions that could be made by the model.
+* Precision Score: Quantifies the number of correct positive predictions made out of the positive predictions made by the model. This shows the ability of the classifier not to label a positive sample that is actually negative.
+* Recall Score: Quantifies the number of real positives that are correctly predicted out of the total positive predictions made by the model. 
 
 
 ## Resources:
@@ -95,8 +95,6 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 * Recall Score Low Risk: 94% 
 
 # Summary:
-All models show low precision for the high risk. 
+The precision score for high risk loans is very low on all models. This indicates that none of these models are the perfect fit for predicting credit risk. 
 
-
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+The results of both ensemble learners was much improved from the resampling models. I would recommend that Fast Lending uses the Easy Ensemble AdaBoost Classifer as the balanced accuracy score was at 93%, the high risk recall score was at 92% and the low risk recall score is 94%. This machine learning model had the most accurate results for credit risk prediction.
