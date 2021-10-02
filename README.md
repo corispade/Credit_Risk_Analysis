@@ -39,7 +39,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 ## Resampling:
 
 ### Naive Random Oversampling
-![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/Oversampling.png)
+![image]()
 
 * Balanced Accuracy Score: 63%
 * Precision Score High Risk: 1%
@@ -48,7 +48,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 * Recall Score Low Risk: 53%
 
 ### SMOTE Oversampling
-![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/SMOTE_Oversampling.png)
+![image]()
 
 * Balanced Accuracy Score: 65%
 * Precision Score High Risk: 1%
@@ -57,7 +57,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 * Recall Score Low Risk: 68%
 
 ### Undersampling with Cluster Centroids
-![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/Undersampling.png)
+![image]()
 
 * Balanced Accuracy Score: 54%
 * Precision Score High Risk: 1%
@@ -66,7 +66,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 * Recall Score Low Risk: 40%
 
 ### SMOTEENN (Combination Over and Under Sampling)
-![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.png)
+![image]()
 
 * Balanced Accuracy Score: 63%
 * Precision Score High Risk: 1%
@@ -77,7 +77,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 ## Ensemble Learners:
 
 ### Balanced Random Forest Classifier
-![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/Balanced_Random_Forest.png)
+![image]()
 
 * Balanced Accuracy Score: 78% 
 * Precision Score High Risk: 3%
@@ -86,7 +86,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 * Recall Score Low Risk: 87% 
 
 ### Easy Ensemble AdaBoost Classifier
-![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/Easy_Ensemble.png)
+![image]()
 
 * Balanced Accuracy Score: 93% 
 * Precision Score High Risk: 9%
@@ -97,4 +97,4 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 # Summary:
 The precision score for high risk loans is very low on all models. This indicates that none of these models are the perfect fit for predicting credit risk. 
 
-The results of both ensemble learners was much improved from the resampling models. I would recommend that Fast Lending uses the Easy Ensemble AdaBoost Classifer as the balanced accuracy score was at 93%, the high risk recall score was at 92% and the low risk recall score is 94%. This machine learning model had the most accurate results for credit risk prediction.
+If we were to suggest one of these models, the results of both ensemble learners were much improved from the resampling models. I would recommend that Fast Lending uses the Easy Ensemble AdaBoost Classifer to predict credit risk. The balanced accuracy score was at 93%, the high risk recall score was at 92% and the low risk recall score is 94%. This machine learning model had the most accurate results for credit risk prediction.
