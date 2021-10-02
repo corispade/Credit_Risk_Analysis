@@ -39,7 +39,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 ## Resampling:
 
 ### Naive Random Oversampling
-![image]()
+![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/Oversampling.png)
 
 * Balanced Accuracy Score: 63%
 * Precision Score High Risk: 1%
@@ -48,7 +48,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 * Recall Score Low Risk: 53%
 
 ### SMOTE Oversampling
-![image]()
+![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/SMOTE_Oversampling.png)
 
 * Balanced Accuracy Score: 65%
 * Precision Score High Risk: 1%
@@ -57,7 +57,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 * Recall Score Low Risk: 68%
 
 ### Undersampling with Cluster Centroids
-![image]()
+![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/Undersampling.png)
 
 * Balanced Accuracy Score: 54%
 * Precision Score High Risk: 1%
@@ -66,7 +66,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 * Recall Score Low Risk: 40%
 
 ### SMOTEENN (Combination Over and Under Sampling)
-![image]()
+![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.png)
 
 * Balanced Accuracy Score: 63%
 * Precision Score High Risk: 1%
@@ -77,7 +77,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 ## Ensemble Learners:
 
 ### Balanced Random Forest Classifier
-![image]()
+![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/Balanced_Random_Forest.png)
 
 * Balanced Accuracy Score: 78% 
 * Precision Score High Risk: 3%
@@ -86,7 +86,7 @@ Dependencies: Pandas, Numpy, scikit-learn, imbalanced-learn
 * Recall Score Low Risk: 87% 
 
 ### Easy Ensemble AdaBoost Classifier
-![image]()
+![image](https://github.com/corispade/Credit_Risk_Analysis/blob/main/Images/Easy_Ensemble.png)
 
 * Balanced Accuracy Score: 93% 
 * Precision Score High Risk: 9%
